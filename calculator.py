@@ -1,3 +1,5 @@
+print("CALCULATOR")
+print("****************************************************************")
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 print('choose from operations available to perform')
@@ -22,3 +24,4 @@ if operation>=5:
     print("Invalid Option")
 
 print("Thank you for using")
+print("****************************************************************")
