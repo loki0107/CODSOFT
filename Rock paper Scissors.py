@@ -1,6 +1,8 @@
 import random
 options=["Rock","Paper","Scissors"]
-useroption=input("enter Rock or Paper or Scissors")
+print("ROCK PAPER SCISSORS")
+print("****************************************************************")
+useroption=input("enter Rock or Paper or Scissors ")
 computerchoice=random.choice(options)
 print("you chose the option ",useroption)
 print("computer chose the option",computerchoice)
@@ -20,3 +22,4 @@ elif useroption=="Scissors" and computerchoice=="Rock":
     print("you lost against the computer")
 else:
     print("invalid option choosen")
+print("****************************************************************")
