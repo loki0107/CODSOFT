@@ -22,4 +22,4 @@ elif useroption=="Scissors" and computerchoice=="Rock":
     print("you lost against the computer")
 else:
     print("invalid option choosen")
-print("****************************************************************")
+print("****************************************************************")   
