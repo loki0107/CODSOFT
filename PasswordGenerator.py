@@ -12,17 +12,16 @@ numberofdigits=int(input("how many numbers do u want in your password?\n"))
 
 passwordlist=[]
 
-for char in range(1,numberofletters+1):
+for _ in range(numberofletters):
     passwordlist.append(random.choice(letters))
-for int in range((1,numberofsymbols+1)):
+
+for _ in range(numberofsymbols):
     passwordlist.append(random.choice(symbols))
-for int in range((1,numberofdigits+1)):
+
+for _ in range(numberofdigits):
     passwordlist.append(random.choice(numbers))
 
 random.shuffle(passwordlist)
-password = ""
-for char in passwordlist:
-    password += char
-print("char", char)
-pwd = ''.join(passwordlist)
-print("Your generated password is", pwd)
+
+password = ''.join(passwordlist)
+print("Your generated password is", password)
