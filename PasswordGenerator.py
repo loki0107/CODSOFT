@@ -25,4 +25,6 @@ random.shuffle(passwordlist)
 
 password = ''.join(passwordlist)
 print("Your generated password is\n","**********\n",password)
+print("**********")
+print("Thank you for using Password Generator")
 print("*****************************************************************************")
