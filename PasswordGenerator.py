@@ -24,4 +24,5 @@ for _ in range(numberofdigits):
 random.shuffle(passwordlist)
 
 password = ''.join(passwordlist)
-print("Your generated password is", password)
+print("Your generated password is\n","**********\n",password)
+print("*****************************************************************************")
